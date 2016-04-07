@@ -1,0 +1,116 @@
+.title {
+    color: #444444;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 70px;
+    font-family: Optima;
+    font-size: 35px;
+    text-align: center;
+    line-height: 100px;
+    margin: 10px;
+    position: relative;
+}
+
+.topnav {
+    position: relative;
+    margin: 20px;
+}
+
+.topnav ul {
+    margin: 50px;
+    padding: 0;
+    text-align: center;
+    font-family: Optima;
+    font-size: 18px;
+}
+
+#container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/*header選單*/
+
+.topnav li {
+    margin: 0 30px 10px 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.topnav a {
+    padding: 30px;
+    text-decoration: none;
+    color: #706F6E;
+    line-height: 100%;
+}
+
+.topnav a:hover {
+    color: #6FEDFD;
+}
+
+@media only screen and (max-width: 768px) {
+    .topnav {
+        position: relative;
+        min-height: 180px;
+        width: 300px;
+    }
+    .topnav ul {
+        width: 100%;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 1px solid #ddd;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    }
+    .topnav li {
+        display: none;
+        margin: 0;
+    }
+    .topnav .current {
+        display: block;
+    }
+    .topnav a {
+        display: block;
+        padding: 5px 5px 5px 20px;
+        text-align: left;
+    }
+    .topnav ul:hover li {
+        display: block;
+        margin: 3px;
+    }
+    .col-md-4 {
+        width: 33.33%;
+    }
+}
+
+
+/*header選單end*/
+img {
+    width: 1000px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    color: #444444;
+    font-size: 28px;
+    font-family: 華康儷細黑;
+    text-align: center;
+}
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+td {
+    width: 1000px;
+    height: 50px;
+    font-size: 20px;
+    font-family: Optima;
+    text-align: left;
+}
