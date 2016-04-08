@@ -1,6 +1,7 @@
-h3 {
-    padding-top: 100px;
+#container {
+	width: 1400px;
 }
+
 
 .glyphicon {
     font-size: 15px;
@@ -35,35 +36,35 @@ h2 {
 }
 
 .col-1 {
-    width: 350px;
-    height: 600px;
+    width: 300px;
+    height: 550px;
     background-color: #EFEFEF;
     float: left;
-    margin: 30px;
+    margin: 15px;
 }
 
 .col-2 {
-    width: 350px;
-    height: 600px;
+    width: 300px;
+    height: 550px;
     background-color: #EFEFEF;
     float: left;
-    margin: 30px;
+    margin: 15px;
 }
 
 .col-3 {
-    width: 350px;
-    height: 600px;
+    width: 300px;
+    height: 550px;
     background-color: #EFEFEF;
     float: left;
-    margin: 30px;
+    margin: 15px;
 }
 
 .col-4 {
-    width: 350px;
-    height: 600px;
+    width: 300px;
+    height: 550px;
     background-color: #EFEFEF;
     float: left;
-    margin: 30px;
+    margin: 15px;
 }
 
 
@@ -83,7 +84,7 @@ h4 {
 }
 
 .picture {
-    width: 300px;
+    width: 250px;
     height: auto;
     position: center;
     margin: 25px;
@@ -98,13 +99,23 @@ h4 {
 
 .button {
 	padding-top: 0px;
-	margin: 80px;
+	margin: 55px;
 }
 
-@media only screen and (max-width: 768px) {
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
+@media screen and (min-width: 1200px) {
+    .col-md-4 {
+        width: 33.33%;
+    }
+}
 
+@media screen and (min-width: 768px) and (max-width: 979px) {
+    // 如果使用者之視窗寬度介於 768px ~ 979px，將會再載入這裡的 CSS。    
+}
+
+@media screen and (max-width: 767px) {
+    // 如果使用者之視窗寬度 <= 768px，將會再載入這裡的 CSS。    
+}
+
+@media screen and (max-device-width: 480px) {
+    // 如果使用者之裝置寬度 <= 480px，將會再載入這裡的 CSS。 
 }
