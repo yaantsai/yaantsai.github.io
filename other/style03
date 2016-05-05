@@ -1,0 +1,23 @@
+    
+    .navbar {
+        background-color: #ECECEC;
+    }
+    
+    .nav a {
+        color: #505050;
+        font-size: 15px;
+        font-family: Optima;
+        font-weight: bold;
+        margin: 10px;
+        padding: 10px 20px;
+    }
+    
+    .nav li {
+        display: inline;
+        
+    }
+    
+    .nav li a {
+        text-decoration: none;
+        text-align: center;
+    }

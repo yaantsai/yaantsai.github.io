@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+    <link rel="stylesheet" href="style03">
+    <title>yaantsai</title>
+</head>
+
+<body>
+    <div class="nav">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <ul class="pull-left">
+                    <li><a href="#">Ya-an Tsai</a></li>
+                    
+                </ul>
+                <ul class="pull-right">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Travel</a></li>
+                </ul>
+        </nav>
+        </div>
+    </div>
+    <div>
+        <div class="row">
+            <div class="col-xs-6">
+            <a href="#" class="thumbnail">
+                <img src="images/茶壺山.jpg" alt="mountain">
+            </a>
+              </div>  
+        </div>
+    </div>
+    <div>
+        <div>
+            <h2>Neighborhood Guides</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, repellat.</p>
+        </div>
+        <div class="learn-more">
+            <h3>Travel</h3>
+            <p>From apartments and rooms to treehouses and boats: stay in unique spaces in 192 countries.</p>
+            <p><a href="#">See how to travel on Airbnb</a></p>
+            <h3>Host</h3>
+            <p>Renting out your unused space could pay your bills or fund your next vacation.</p>
+            <p><a href="#">Learn more about hosting</a></p>
+            <h3>Trust and Safety</h3>
+            <p>From Verified ID to our worldwide customer support team, we've got your back.</p>
+            <p><a href="#">Learn about trust at Airbnb</a></p>
+        </div>
+</body>
+
+</html>

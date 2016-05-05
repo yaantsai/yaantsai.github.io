@@ -1,0 +1,19 @@
+    .navbar {
+        background-color: #557365;
+    }
+    
+    .nav a {
+        color: #FFFFFF;
+        font-size: 15px;
+        font-family: Optima;
+        font-weight: bold;
+        padding: 14px 10px;
+    }
+    
+    .nav li {
+        display: inline;
+    }
+    
+    .nav li a {
+        text-decoration: none;
+    }
